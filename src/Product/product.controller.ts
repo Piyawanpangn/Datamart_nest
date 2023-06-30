@@ -47,5 +47,4 @@ export class ProductController {
   async findAllVDP(): Promise<typecon[]> {
     return this.productService.findAllVDP();
   }
-
 }
